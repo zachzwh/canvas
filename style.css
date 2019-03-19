@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+#xxx{
+    background: #fff9d6;
+    display: block;
+}
+
+.actions{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.actions > #brush{
+    display: none;
+}
+
+.actions.x > #brush{
+    display: inline-block;
+}
+
+.actions.x > #eraser{
+    display: none;
+}
